@@ -40,7 +40,6 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		8A65A504D58F43FBB161377A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9D00D759CF41A29005DF25 /* ExternalAccessory.framework */; };
-		95462AB4AC2E4A7B9D078F69 /* libdtdev.a in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C1F43555444759CAAD826 /* libdtdev.a */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F3411A8E1E62437E8B2A5573 /* LineaProCDV.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F281285D57D4EFAABF96820 /* LineaProCDV.m */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
@@ -90,7 +89,6 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
-		3A3C1F43555444759CAAD826 /* libdtdev.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libdtdev.a; path = com.citronium.lineaprocdv/libdtdev.a; sourceTree = "<group>"; };
 		48AE894C3C4C45AF8B1EC520 /* DTDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTDevices.h; path = com.citronium.lineaprocdv/DTDevices.h; sourceTree = "<group>"; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -234,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				5F281285D57D4EFAABF96820 /* LineaProCDV.m */,
-				3A3C1F43555444759CAAD826 /* libdtdev.a */,
 				F6F99B924EB547D398B27CEE /* LineaProCDV.h */,
 				48AE894C3C4C45AF8B1EC520 /* DTDevices.h */,
 			);
@@ -423,7 +420,6 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				F3411A8E1E62437E8B2A5573 /* LineaProCDV.m in Sources */,
-				95462AB4AC2E4A7B9D078F69 /* libdtdev.a in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
